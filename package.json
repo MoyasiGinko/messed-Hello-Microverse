@@ -1,15 +1,27 @@
 {
-  "name": "linter",
+  "name": "hello-microverse",
   "version": "1.0.0",
-  "description": "",
+  "description": "If you are not familiar with linters, read [root level README](../README.md).",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ibu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoyasiGinko/Hello-Microverse.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoyasiGinko/Hello-Microverse/issues"
+  },
+  "homepage": "https://github.com/MoyasiGinko/Hello-Microverse#readme",
   "devDependencies": {
-    "eslint": "^8.36.0",
-    "eslint-plugin-react": "^7.32.2"
+    "hint": "^2.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   }
 }
